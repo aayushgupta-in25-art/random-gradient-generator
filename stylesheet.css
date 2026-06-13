@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    );         
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-container{
+    text-align: center;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-container h1{
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.title-container p{
+    font-size: 1rem;
+    color: rgba(255,255,255,0.8);
+    letter-spacing: 1px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+#myButton{
+    background-color: #a8eb12;
+}
+
+#myButton2{
+    background-color: #004d7a;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    margin: 20px;
+}
+
+.css-code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white ;
+    font-size: 1.8rem;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    border-left: 3px solid #fff;
+    background-color: rgba(189, 189, 189, 0.1);
+    padding: 10px 8px 10px 17px;
+    border-radius: 5px;
+    font-family: monospace;
+}
